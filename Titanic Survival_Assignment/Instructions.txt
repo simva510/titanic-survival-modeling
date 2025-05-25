@@ -1,0 +1,65 @@
+Titanic Survival Prediction Task: Instructions
+
+Step 1: Data Preprocessing:
+
+Prepare the dataset for modeling. You are responsible for:
+
+* Handling missing values
+* Encoding categorical variables
+* Creating or selecting useful features
+
+Please use your discretion to apply other preprocessing techniques you find appropriate.
+
+-----------------------------------------------------------
+
+Step 2: Model Building and Evaluation:
+
+* You must explore multiple classification models to predict the `Survived` status of Titanic passengers.
+
+* Implement a function that evaluates each model, using metrics such as:
+
+  * Accuracy
+  * Precision
+  * F1 Score
+
+This function should take the model or model name and validation dataframe as argument and output its score on the above metrics.
+Evaluate and compare different models' performance on validation data. This will help you systematically identify the best model
+
+Once you've determined the best-performing model, save it locally on your computer.
+
+-----------------------------------------------------------
+
+Step 3: Model Testing:
+
+* Provide separate code that loads the saved model and applies it to new data
+* Use the **`Holdout_testing`** dataset to evaluate your best model.
+* Predict the `Survived` column using the loaded model.
+* Save the predictions in a CSV file named: `Titanic Results from <Your Name>.csv`
+* A brief write-up (no more than one paragraph) comparing the pros and cons of the modeling techniques you used
+
+-----------------------------------------------------------
+
+Step 4: Submission Requirements:
+
+Submit the following items:
+
+1. All code used for:
+
+   * Data cleaning and preprocessing
+   * Model training and evaluation
+   * Model selection and saving
+   * Final prediction generation
+2. The final results CSV from Step 3
+3. A brief write-up (no more than one paragraph) comparing the pros and cons of the modeling techniques you used
+
+-----------------------------------------------------------
+
+Evaluation Criteria:
+
+Your submission will be assessed based on:
+
+* Modeling techniques: Appropriateness and complexity
+* Performance: Accuracy, precision, and F1 score on the holdout dataset
+* Understanding: Shown through your write-up comparing the models
+* Code quality: Organization, readability, and completeness
+
